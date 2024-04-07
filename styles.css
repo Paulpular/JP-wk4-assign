@@ -5,19 +5,17 @@
 }
 
 body {
-    width: 1440px;
-    height: 2095px;
-    top: -791px;
-    left: -720px;
     font-family: Montaga;
     background: #FFFFFF;
 }
 
-.frame2 {
-    width: 1,440px;
-    height: 112px;
-    padding: 32px 88px 32px 88px;
+
+.header {
+    width: 100%;
+    height: 70px;
+    padding: 15px 70px 15px 70px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -31,103 +29,94 @@ body {
 }
 
 .image1 {
-    width: 17.4px;
-    height: 26.68px;
+    width: 12.4px;
+    height: 19.68px;
 }
 
 .paragraph1 {
     width: 118px;
     height: 48px;
-    font-size: 33px;
-    font-weight: 400;
+    font-size: 23px;
     line-height: 48px;
     text-align: left;
 }
 
 .right-side {
-    width: 315px;
     height: 47px;
     color: #000000;
     display: flex;
+    text-align: center;
 }
 
 .home {
     width: 140px;
-    height: 47px;
     padding: 8px 40px 8px 40px;
     gap: 10px;
+    text-align: right;
 }
 
 .our-story {
     width: 175px;
-    height: 47px;
     padding: 8px 40px 8px 40px;
     gap: 10px;
+    text-align: left;
 }
 
 .paragraph2 {
     width: 60px;
-    height: 31px;
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 15px;
     line-height: 30.8px;
-    text-align: left;
 }
 
 .paragraph3 {
     width: 95px;
-    height: 31px;
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 15px;
     line-height: 30.8px;
-    text-align: left;
 }
 
-.frame3{
-    height: 832px;
+.frame1{
+    width: 100%;
+    height: 645px;
     padding: 64px 0 72px 0;
-    gap: 64px;
     background: #F0CCBB;
     display: flex;
 }
 
-.frame4 {
+.inside-frame1 {
+    width: 100%;
     height: 584px;
-    padding: 0 88px 0 88px;
-    gap: 87px;
+    padding: 0 70px 0 70px;
     background: #F0CCBB;
     display: flex;
 }
 
 .h1-frame {
-    width: 749px;
-    height: 376px;
-    gap: 40px;
+    width: 100%;
+    height: 303.6px;
     margin: 104px 0 104px 0;
 }
 
 .h1-p-frame {
-    width: 749px;
-    height: 290px;
-    gap: 24px;
+    width: 100%;
+    height: 214px;
 }
 
 h1 {
-    width: 749px;
-    height: 198px;
-    font-size: 80px;
+    width: 100%;
+    height: 145px;
+    font-size: 58px;
     font-weight: 400;
-    line-height: 98.56px;
+    line-height: 80px;
     text-align: left;
     margin: 0px 0 24px 0;
 }
 
 .paragraph4 {
-    width: 646px;
-    height: 68px;
-    font-size: 24px;
+    width: 355px;
+    height: 45px;
+    font-size: 17.3px;
     font-weight: 400;
-    line-height: 33.6px;
+    line-height: 23px;
     text-align: left;
     color: #231F20;
 }
@@ -142,63 +131,69 @@ h1 {
 }
 
 .paragraph5 {
-    width: 123px;
+    width: 115px;
     height: 18px;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 18px;
-    text-align: center;
+    padding: 0 20px 0 20px;
     color: #FFFFFF;
+    text-decoration: none;
+}
+
+.image2-frame {
+    width: 100%;
+    text-align: right;
 }
 
 .image2 {
-    width: 428px;
-    height: 584px;
-    border-radius: 800px;
+    width: 400px;
+    height: 510px;
 }
 
-.frame5 {
-    width: 1,264px;
-    height: 292px;
-    top: 920px;
-    left: 88px;
+.frame2 {
+    width: 85.3%;
+    height: 265px;
     display: flex;
-    margin: 88px 88px 88px 88px;
-    justify-content: space-between;
+    margin: 80px auto;
 }
 
 h2 {
     width: 310px;
     height: 89px;
-    font-size: 72px;
+    font-size: 59px;
     font-weight: 400;
-    line-height: 88.7px;
-    margin: 101.5px 205px 101.5px 0;
-    text-align: left;
+    margin: 100px 205px 100px 0;
     color: #000000;
 }
 
 .paragraph6 {
     width: 749px;
-    height: 292px;
-    font-size: 24px;
+    height: 265px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 33.6px;
     text-align: left;
     color: #231F20;
 }
 
-.frame6 {
-    height: 595px;
+.frame3 {
+    width: 100%;
     top: 1300px;
     background: #FFFFFF;
 }
 
-.frame7 {
-    height: 111px;
+.image3 {
+    width: 100%;
+    height: 75%;
+}
+
+.footer-frame {
+    width: 100%;
+    height: 90px;
     top: 1983px;
-    padding: 40px 0 0 0;
-    margin: 88px 0 1px 0;
+    padding: 30px 0 0 0;
+    margin: 55px 0 1px 0;
     gap: 10px;
     display: flex;
     justify-content: center;
@@ -208,7 +203,10 @@ h2 {
 .paragraph7, span, a{
     font-size: 22px;
     font-weight: 400;
-    line-height: 30.8px;
     text-align: left;
     color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    
 }
