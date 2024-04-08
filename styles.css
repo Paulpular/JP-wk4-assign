@@ -209,7 +209,7 @@ h2 {
     color: #000000;
 }
 
-@media screen and (max-width: 426px) {
+/* @media screen and (max-width: 426px) {
     body {
         width: 100%;
         height: 1674px;
@@ -392,7 +392,7 @@ h2 {
         line-height: 22.4px;
         color: #000000;
     }
-}
+} */
 
 @media screen and (max-width: 376px) {
     body {
