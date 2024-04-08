@@ -394,14 +394,16 @@ h2 {
     }
 } */
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 381px) {
     body {
-        width: 375px;
+        /* width: 375px; */
+        width: 100%;
         height: 1674px;
     }
 
     .header {
-        width: 375px;
+        /* width: 375px; */
+        width: 100%;
         height: 57px;
         padding: 16px 20px 16px 20px;
         display: flex;
@@ -442,7 +444,8 @@ h2 {
     }
 
     .frame1{
-        width: 375px;
+        /* width: 375px; */
+        width: 100%;
         height: 859px;
         padding: 64px 20px 64px 20px;
         background: #F0CCBB;
