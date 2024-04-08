@@ -209,6 +209,190 @@ h2 {
     color: #000000;
 }
 
+@media screen and (max-width: 426px) {
+    body {
+        width: 100%;
+        height: 1674px;
+    }
+
+    .header {
+        width: 100%;
+        height: 3.5%;
+        padding: 16px 20px 16px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .left-side {
+        width: 24%;
+        height: 100%;
+        gap: 4px;
+        color: #C6754D;
+        display: flex;
+        align-items: center;
+    }
+
+    .image1 {
+        width: 17%;
+        height: 100%;
+    }
+
+    .paragraph1 {
+        width: 67.50%;
+        height: 100%;
+        font-size: 18px;
+        line-height: 25.2px;
+        text-align: left;
+    }
+    
+    .right-side {
+        display: none;
+    }
+
+    .image2 {
+        width: 5.98%;
+        height: 90%;
+        display: block;
+    }
+
+    .frame1{
+        width: 100%;
+        height: 100%;
+        padding: 64px 20px 64px 20px;
+        background: #F0CCBB;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .inside-frame1 {
+        width: 99%;
+        height: 100%;
+        gap: 32px;
+        padding: 0;
+        background: #F0CCBB;
+        flex-direction: column;
+    }
+    
+    .h1-frame {
+        width: 100%;
+        height: 299px;
+        margin: 0;
+    }
+    
+    .h1-p-frame {
+        width: 100%;
+        height: 73%;
+
+    }
+    
+    h1 {
+        width: 100%;
+        height: 67.4%;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 49.28px;
+        color: #000000;
+    }
+    
+    .paragraph4 {
+        width: 100%;
+        height: 30%;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: #231F20;
+    }
+    
+    .button {
+        width: 100%;
+        height: 15.4%;
+        padding: 14px 24px 14px 24px;
+        border-radius: 16px;
+        margin: 24px 0 32px 0;
+        background: #C6754D;
+        text-align: center;
+    }
+    
+    .paragraph5 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        padding: 0 20px 0 20px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .image3-frame {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .image3 {
+        width: 294.04px;
+        height: 400px;
+        border-radius: 800px;
+    }
+
+    .frame2 {
+        width: 90%;
+        height: 100%;
+        padding: 40px 0 40px 0;
+        margin: 0 20px 0 20px;
+        flex-direction: column;
+    }
+    
+    h2 {
+        width: 36.06%;
+        height: 100%;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 39.42px;
+        margin: 0 0 24px 0;
+        color: #000000;
+    }
+    
+    .paragraph6 {
+        width: 100%;
+        height: 100%;
+        font-size: 19.4px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #231F20;
+    }
+
+    .frame3 {
+        width: 100%;
+        height: 273px;
+        background: #FFFFFF;
+    }
+    
+    .image4 {
+        width: 100%;
+        height: 272px;
+    }
+
+    .footer-frame {
+        width: 100%;
+        height: 6.1%;
+        padding: 40px 0 0 0;
+        gap: 5px;
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        background: #FCF9F7;
+    }
+    
+    .paragraph7, span, a{
+        height: 22px;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        line-height: 22.4px;
+        color: #000000;
+    }
+}
+
 @media screen and (max-width: 376px) {
     body {
         width: 375px;
