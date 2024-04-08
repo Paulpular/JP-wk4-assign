@@ -309,7 +309,7 @@ h2 {
         height: 15.4%;
         padding: 14px 24px 14px 24px;
         border-radius: 16px;
-        margin: 24px 0 32px 0;
+        margin: 32px 0 32px 0;
         background: #C6754D;
         text-align: center;
     }
@@ -329,8 +329,9 @@ h2 {
     }
     
     .image3 {
-        width: 294.04px;
-        height: 400px;
+        width: 90%;
+        height: 50%;
+        margin: 25px 0 0 0;
         border-radius: 800px;
     }
 
