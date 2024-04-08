@@ -394,15 +394,13 @@ h2 {
     }
 } */
 
-@media screen and (max-width: 381px) {
+@media screen and (max-width: 397px) {
     body {
-        /* width: 375px; */
         width: 100%;
         height: 1674px;
     }
 
     .header {
-        /* width: 375px; */
         width: 100%;
         height: 57px;
         padding: 16px 20px 16px 20px;
@@ -443,8 +441,7 @@ h2 {
         display: block;
     }
 
-    .frame1{
-        /* width: 375px; */
+    .frame1 {
         width: 100%;
         height: 859px;
         padding: 64px 20px 64px 20px;
