@@ -209,7 +209,7 @@ h2 {
     color: #000000;
 }
 
-/* @media screen and (max-width: 426px) {
+@media screen and (max-width: 397px) {
     body {
         width: 100%;
         height: 1674px;
@@ -217,7 +217,7 @@ h2 {
 
     .header {
         width: 100%;
-        height: 3.5%;
+        height: 57px;
         padding: 16px 20px 16px 20px;
         display: flex;
         align-items: center;
@@ -225,8 +225,8 @@ h2 {
     }
 
     .left-side {
-        width: 24%;
-        height: 100%;
+        width: 93px;
+        height: 25px;
         gap: 4px;
         color: #C6754D;
         display: flex;
@@ -234,13 +234,13 @@ h2 {
     }
 
     .image1 {
-        width: 17%;
-        height: 100%;
+        width: 16px;
+        height: 24px;
     }
 
     .paragraph1 {
-        width: 67.50%;
-        height: 100%;
+        width: 65px;
+        height: 25px;
         font-size: 18px;
         line-height: 25.2px;
         text-align: left;
@@ -251,14 +251,14 @@ h2 {
     }
 
     .image2 {
-        width: 5.98%;
-        height: 90%;
+        width: 24px;
+        height: 24px;
         display: block;
     }
 
-    .frame1{
+    .frame1 {
         width: 100%;
-        height: 100%;
+        height: 859px;
         padding: 64px 20px 64px 20px;
         background: #F0CCBB;
         gap: 10px;
@@ -266,8 +266,8 @@ h2 {
     }
 
     .inside-frame1 {
-        width: 99%;
-        height: 100%;
+        width: 355px;
+        height: 731px;
         gap: 32px;
         padding: 0;
         background: #F0CCBB;
@@ -275,20 +275,22 @@ h2 {
     }
     
     .h1-frame {
-        width: 100%;
+        width: 355px;
         height: 299px;
+        gap: 24px;
         margin: 0;
+        flex-direction: column;
     }
     
     .h1-p-frame {
-        width: 100%;
-        height: 73%;
+        width: 335px;
+        height: 229px;
 
     }
     
     h1 {
         width: 100%;
-        height: 67.4%;
+        height: 147px;
         font-size: 40px;
         font-weight: 400;
         line-height: 49.28px;
@@ -297,7 +299,7 @@ h2 {
     
     .paragraph4 {
         width: 100%;
-        height: 30%;
+        height: 66px;
         font-size: 17px;
         font-weight: 400;
         line-height: 22.4px;
@@ -306,15 +308,17 @@ h2 {
     
     .button {
         width: 100%;
-        height: 15.4%;
+        height: 46px;
         padding: 14px 24px 14px 24px;
         border-radius: 16px;
-        margin: 32px 0 32px 0;
+        margin: 24px 0 32px 0;
         background: #C6754D;
         text-align: center;
     }
     
     .paragraph5 {
+        width: 123px;
+        height: 18px;
         font-size: 18px;
         font-weight: 400;
         line-height: 18px;
@@ -329,23 +333,23 @@ h2 {
     }
     
     .image3 {
-        width: 90%;
-        height: 50%;
-        margin: 25px 0 0 0;
+        width: 87%;
+        height: 95%;
+        text-align: center;
         border-radius: 800px;
     }
 
     .frame2 {
-        width: 90%;
-        height: 100%;
+        width: 355px;
+        height: 383px;
         padding: 40px 0 40px 0;
         margin: 0 20px 0 20px;
         flex-direction: column;
     }
     
     h2 {
-        width: 36.06%;
-        height: 100%;
+        width: 138px;
+        height: 39px;
         font-size: 32px;
         font-weight: 400;
         line-height: 39.42px;
@@ -354,11 +358,11 @@ h2 {
     }
     
     .paragraph6 {
-        width: 100%;
-        height: 100%;
-        font-size: 19.4px;
+        width: 355px;
+        height: 240px;
+        font-size: 18px;
         font-weight: 400;
-        line-height: 27px;
+        line-height: 22.4px;
         color: #231F20;
     }
 
@@ -375,7 +379,7 @@ h2 {
 
     .footer-frame {
         width: 100%;
-        height: 6.1%;
+        height: 102px;
         padding: 40px 0 0 0;
         gap: 5px;
         display: flex;
@@ -392,9 +396,9 @@ h2 {
         line-height: 22.4px;
         color: #000000;
     }
-} */
+}
 
-@media screen and (max-width: 397px) {
+@media screen and (max-width: 376px) {
     body {
         width: 100%;
         height: 1674px;
